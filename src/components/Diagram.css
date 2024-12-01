@@ -1,0 +1,59 @@
+/* Diagram.css */
+.diagram {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .diagram svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .diagram rect {
+    fill: #f0f0f0;
+    stroke: #ddd;
+    stroke-width: 2;
+    rx: 10;
+  }
+  
+  .diagram circle {
+    fill: #007bff;
+    stroke: #333;
+    stroke-width: 2;
+  }
+  
+  .diagram line {
+    stroke: #333;
+    stroke-width: 2;
+  }
+  
+  .diagram text {
+    font-size: 24px;
+    font-weight: bold;
+    fill: #333;
+  }
+  
+  .diagram .component {
+    font-size: 18px;
+    font-weight: normal;
+    fill: #666;
+  }
+  
+  .diagram .connection {
+    stroke: #666;
+    stroke-width: 1;
+  }
+  
+  .diagram .connection:hover {
+    stroke: #333;
+    stroke-width: 2;
+  }
+  
+  .diagram .component:hover {
+    fill: #333;
+    font-weight: bold;
+  }
